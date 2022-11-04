@@ -1,7 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
-const port = 4000
+// const port = 4000
+const port = 'https://back-p-tecnica-2.vercel.app/'
 const db = require('./src/queries')
 
 app.use(bodyParser.json())
