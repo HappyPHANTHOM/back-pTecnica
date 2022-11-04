@@ -2,7 +2,7 @@ const Pool = require('pg').Pool
 
 const pool = new Pool({
   user: 'me',
-  host: 'localhost',
+  host: 'https://back-p-tecnica-2.vercel.app/',
   database: 'api',
   password: 'password',
   port: 5432,
